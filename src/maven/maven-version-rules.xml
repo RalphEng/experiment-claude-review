@@ -1,0 +1,15 @@
+<ruleset comparisonMethod="maven"
+	xmlns="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 http://mojo.codehaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd">
+
+	<rules>
+		<rule groupId="*">
+			<ignoreVersions>
+				<!-- ignore mile stones -->			
+				<ignoreVersion type="regex">.*-M\d{1,3}</ignoreVersion>
+                <ignoreVersion type="regex">.*-beta[\d ]{0,4}</ignoreVersion>
+			</ignoreVersions>
+		</rule>
+	</rules>
+</ruleset>

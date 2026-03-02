@@ -1,0 +1,2 @@
+include:
+  { project: 'humanfork/experiments/simple-experiment-pipeline', ref: 'master', file: '/maven/test.yml'}
