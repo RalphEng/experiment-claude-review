@@ -3,7 +3,7 @@
     "image": "mcr.microsoft.com/devcontainers/java:21-jdk-bookworm",
     "features": {
         "ghcr.io/devcontainers/features/java:1": {
-            "version": "21.0.9",
+            "version": "21",
             "jdkDistro": "tem",
             "installMaven": "true",
             "mavenVersion": "3.9.6"
@@ -65,7 +65,7 @@
     },
     "containerEnv": {
         "JAVA_HOME": "/usr/local/sdkman/candidates/java/current",
-        "JAVA_21_HOME": "/usr/local/sdkman/candidates/java/21.0.9-tem",
+        "JAVA_21_HOME": "/usr/local/sdkman/candidates/java/current",
         "TESTCONTAINERS_RYUK_DISABLED": "true",
         "TESTCONTAINERS_HOST_OVERRIDE": "host.docker.internal"
     },
@@ -97,7 +97,7 @@
                 "java.configuration.runtimes": [
                     {
                         "name": "JavaSE-21",
-                        "path": "/usr/local/sdkman/candidates/java/21.0.9-tem",
+                        "path": "/usr/local/sdkman/candidates/java/current",
                         "default": true
                     }
                 ],
