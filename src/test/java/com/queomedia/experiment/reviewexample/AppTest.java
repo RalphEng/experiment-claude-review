@@ -1,14 +1,12 @@
 package com.queomedia.experiment.reviewexample;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-/**
- * Test {@code App}.
- */
+@SpringBootTest
 public class AppTest {
 
     @Test
-    public void testExample() {
-        //noting to do
+    public void contextLoads() {
     }
 }

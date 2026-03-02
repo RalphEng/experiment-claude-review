@@ -1,10 +1,11 @@
 package com.queomedia.experiment.reviewexample;
 
-/**
- * Hello world!
- */
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class App {
     public static void main(final String[] args) {
-        System.out.println("Hello World!");
+        SpringApplication.run(App.class, args);
     }
 }
